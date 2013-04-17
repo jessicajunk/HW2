@@ -11,8 +11,8 @@ Examples:
 find_fib(4)   --> 2
 find_fib(7)   --> 8
 
-for i in range(1, 11)
-  print find_fib(i)   --> 0, 1, 1, 2, 
+for i in range(1, 11):
+  print find_fib(i)
   Here are the first 10 numbers in the Fibonacci Sequence:                                                                                                                 
 0                                                                                                                                                                        
 1                                                                                                                                                                        
