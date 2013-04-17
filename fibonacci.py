@@ -16,6 +16,7 @@ def find_fib(n):
                 last = hold
             return sum
     else:
+        # It would be better to raise a ValueError("n must be a positive integer.")  here...
         raise Exception("n must be a positive integer.")
 
 if __name__ == '__main__':
