@@ -1,7 +1,8 @@
 """This function takes in an int n and returns the nth number in the
 Fibonacci Sequence, where the sequence starts with 0, 1, 1, 2, ..."""
 
-def find_fib(n):
+%cython
+def find_fib2(long n):
     if n > 0:
         if n < 3:
             return n - 1
@@ -16,8 +17,7 @@ def find_fib(n):
                 last = hold
             return sum
     else:
-        # It would be better to raise a ValueError("n must be a positive integer.")  here...
-        raise Exception("n must be a positive integer.")
+        raise ValueError("n must be a positive integer.")
 
 if __name__ == '__main__':
     x = int(raw_input("Input a positive integer: "))
