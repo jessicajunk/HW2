@@ -1,7 +1,8 @@
+HW2 and HW3
+===
 Jessica Junk
 Math 480
-HW2
-===
+
 
 The fibonacci.py file asks the user to input a positive integer
 and returns the Fibonacci Sequence up through that nth number.
@@ -24,3 +25,7 @@ for i in range(1, 11):
 13                                                                                                                                                                       
 21                                                                                                                                                                       
 34                            
+
+HW3:
+original hw2 code: timeit("find_fib(1000)") --> 625 loops, best of 3: 271 µs per loop
+revised hw3 code:  timeit("find_fib(1000)") --> 625 loops, best of 3: 127 µs per loop
